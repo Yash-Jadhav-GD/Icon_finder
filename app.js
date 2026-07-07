@@ -34,6 +34,52 @@ document.addEventListener('DOMContentLoaded', async () => {
         { id: 'security', label: 'Security' }
     ];
 
+    // Synonym Expansion Engine for Bulletproof Search
+    const SYNONYM_CLUSTERS = [
+        ["add", "plus", "create", "new", "insert", "append", "positive", "increase", "include"],
+        ["delete", "trash", "remove", "bin", "garbage", "minus", "cancel", "clear", "drop", "reduce", "decrease"],
+        ["edit", "pencil", "pen", "write", "update", "change", "modify", "rename"],
+        ["search", "magnifying", "glass", "find", "zoom", "explore", "discover", "look"],
+        ["settings", "gear", "cog", "preferences", "options", "config", "setup", "control", "adjust", "slider"],
+        ["user", "person", "profile", "account", "human", "avatar", "member", "people"],
+        ["home", "house", "main", "dashboard", "start"],
+        ["upload", "arrow up", "arrow-up", "cloud up", "export", "send", "push", "publish"],
+        ["download", "arrow down", "arrow-down", "cloud down", "import", "receive", "pull", "save"],
+        ["save", "floppy", "disk", "store", "keep", "bookmark", "archive"],
+        ["refresh", "reload", "sync", "update", "circle arrow", "restart"],
+        ["close", "x", "cross", "exit", "quit", "cancel"],
+        ["success", "check", "tick", "done", "complete", "approved", "verify", "yes"],
+        ["warning", "alert", "triangle", "exclamation", "caution", "danger", "attention", "error"],
+        ["error", "x", "cross", "fail", "invalid", "alert", "danger", "no", "warning"],
+        ["fast", "lightning", "bolt", "quick", "speed", "flash", "rocket", "performance"],
+        ["slow", "turtle", "snail", "hourglass", "wait", "time"],
+        ["secure", "lock", "shield", "safe", "protect", "privacy", "security", "auth"],
+        ["unsecure", "unlock", "open", "insecure"],
+        ["visible", "eye", "show", "view", "watch", "reveal", "public", "display"],
+        ["hidden", "eye off", "hide", "blind", "invisible", "conceal", "private"],
+        ["love", "heart", "favorite", "like", "adore", "save"],
+        ["copy", "duplicate", "clone", "files", "clipboard", "replicate"],
+        ["link", "chain", "url", "connect", "attach", "hyperlink", "anchor"],
+        ["picture", "image", "photo", "gallery", "photography", "camera", "visual"],
+        ["video", "movie", "film", "camera", "play", "cinema", "media"],
+        ["message", "chat", "bubble", "sms", "text", "conversation", "talk", "communicate"],
+        ["mail", "envelope", "email", "letter", "inbox", "send", "receive"],
+        ["call", "phone", "telephone", "ring", "contact", "dial", "mobile"],
+        ["time", "clock", "watch", "hour", "minute", "schedule", "calendar", "date", "event", "history", "recent"],
+        ["help", "question", "mark", "support", "info", "faq", "information"],
+        ["document", "file", "paper", "page", "sheet", "record", "notes"],
+        ["folder", "directory", "archive", "organize"],
+        ["share", "network", "distribute", "forward", "publish"],
+        ["print", "printer", "fax", "paper"],
+        ["cloud", "internet", "network", "online", "server", "hosting"],
+        ["location", "pin", "map", "marker", "place", "gps", "navigation", "destination", "pointer"],
+        ["shopping", "cart", "basket", "bag", "store", "ecommerce", "buy", "purchase", "checkout"],
+        ["payment", "card", "credit", "money", "cash", "wallet", "dollar", "finance", "billing", "price"],
+        ["analytics", "chart", "graph", "stats", "statistics", "data", "metrics", "report", "dashboard", "trend", "presentation"],
+        ["menu", "hamburger", "list", "navigation", "bars", "lines"],
+        ["more", "dots", "ellipsis", "options", "actions", "overflow"]
+    ];
+
     // Load data
     try {
         loading.style.display = 'block';
@@ -123,19 +169,34 @@ document.addEventListener('DOMContentLoaded', async () => {
                 for (const term of searchTerms) {
                     let termMatch = false;
                     
-                    if (term === 'ai') {
-                        if (/\b(ai|robot|bot|chatbot|chip|microchip|artificial|intelligence|5g|brain)\b/i.test(searchBase)) {
-                            termMatch = true;
-                            score += 10;
+                    // 1. Synonym Expansion
+                    let expandedTerms = [term];
+                    for (const cluster of SYNONYM_CLUSTERS) {
+                        // If user's term is conceptually in this cluster
+                        if (cluster.some(alias => alias === term || alias.startsWith(term))) {
+                            expandedTerms = [...new Set([...expandedTerms, ...cluster])];
                         }
-                    } else {
-                        // Word boundary match gives higher score
-                        if (new RegExp('\\b' + term + '\\b', 'i').test(searchBase)) {
-                            termMatch = true;
-                            score += 5;
-                        } else if (searchBase.includes(term)) {
-                            termMatch = true;
-                            score += 1;
+                    }
+
+                    // 2. Check if ANY expanded term matches the icon
+                    for (const expTerm of expandedTerms) {
+                        if (expTerm === 'ai') {
+                            if (/\b(ai|robot|bot|chatbot|chip|microchip|artificial|intelligence|5g|brain)\b/i.test(searchBase)) {
+                                termMatch = true;
+                                score += 10;
+                                break;
+                            }
+                        } else {
+                            // Word boundary match gives higher score
+                            if (new RegExp('\\b' + expTerm + '\\b', 'i').test(searchBase)) {
+                                termMatch = true;
+                                score += 5;
+                                break; // Only need one synonym to match for this term
+                            } else if (searchBase.includes(expTerm)) {
+                                termMatch = true;
+                                score += 1;
+                                break; // Only need one synonym to match for this term
+                            }
                         }
                     }
 
