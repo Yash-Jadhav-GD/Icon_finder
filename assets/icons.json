@@ -1766,7 +1766,11 @@
     "tags": [
       "amazon",
       "cognito",
-      "ergo"
+      "aws",
+      "cloud",
+      "identity",
+      "authentication",
+      "security"
     ],
     "category": "abstract"
   },
@@ -1776,7 +1780,13 @@
     "label": "Amazon Workdocs",
     "tags": [
       "amazon",
-      "workdocs"
+      "workdocs",
+      "aws",
+      "cloud",
+      "document",
+      "collaboration",
+      "storage",
+      "file"
     ],
     "category": "abstract"
   },
@@ -2758,8 +2768,14 @@
     "file": "freert-os-e662c7.svg",
     "label": "Freert Os",
     "tags": [
-      "freert",
-      "os"
+      "freertos",
+      "os",
+      "system",
+      "real-time",
+      "embedded",
+      "software",
+      "kernel",
+      "microcontroller"
     ],
     "category": "abstract"
   },
@@ -7640,7 +7656,6 @@
       "pin",
       "radius",
       "spoke",
-      "r",
       "turf",
       "x-ray",
       "glimmer",
@@ -12604,7 +12619,6 @@
       "car",
       "radius",
       "spoke",
-      "r",
       "turf",
       "x-ray",
       "glimmer",
@@ -16117,7 +16131,6 @@
     "label": "Hydrogen",
     "tags": [
       "hydrogen",
-      "h",
       "oxygen",
       "selenide",
       "hexafluoride",
@@ -19890,7 +19903,14 @@
     "label": "Amazon Cloudtrail",
     "tags": [
       "amazon",
-      "cloudtrail"
+      "cloudtrail",
+      "aws",
+      "cloud",
+      "audit",
+      "security",
+      "monitoring",
+      "compliance",
+      "logs"
     ],
     "category": "abstract"
   },
@@ -20337,7 +20357,6 @@
       "board",
       "game",
       "deuce",
-      "2",
       "two",
       "dickens",
       "devil",
@@ -25835,7 +25854,6 @@
       "same",
       "care",
       "equivalent",
-      "y",
       "ly"
     ],
     "category": "abstract"
@@ -25858,7 +25876,6 @@
       "same",
       "care",
       "equivalent",
-      "y",
       "ly"
     ],
     "category": "abstract"
@@ -26019,8 +26036,7 @@
       "comparable",
       "same",
       "care",
-      "equivalent",
-      "y"
+      "equivalent"
     ],
     "category": "abstract"
   },
@@ -27474,7 +27490,15 @@
     "label": "Discussion Converstion",
     "tags": [
       "discussion",
-      "converstion"
+      "conversation",
+      "chat",
+      "talk",
+      "dialogue",
+      "communication",
+      "message",
+      "meeting",
+      "exchange",
+      "debate"
     ],
     "category": "abstract"
   },
@@ -27779,7 +27803,14 @@
     "tags": [
       "job",
       "choose",
-      "cadidate"
+      "candidate",
+      "recruitment",
+      "hiring",
+      "interview",
+      "selection",
+      "applicant",
+      "employment",
+      "hr"
     ],
     "category": "abstract"
   },
@@ -31005,7 +31036,14 @@
     "label": "Sailing Archor",
     "tags": [
       "sailing",
-      "archor"
+      "anchor",
+      "nautical",
+      "ship",
+      "boat",
+      "marine",
+      "ocean",
+      "sea",
+      "sail"
     ],
     "category": "abstract"
   },
@@ -55690,7 +55728,6 @@
       "bpm",
       "peg",
       "pgo",
-      "7",
       "pgc"
     ],
     "file": "tabler-bmp.svg",
@@ -56632,7 +56669,6 @@
       "border",
       "radius",
       "spoke",
-      "r",
       "turf",
       "x-ray",
       "glimmer",
@@ -58457,8 +58493,15 @@
   {
     "label": "Brand Appgallery",
     "tags": [
+      "appgallery",
       "brand",
-      "appgallery"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-appgallery.svg",
     "source": "external",
@@ -58559,8 +58602,15 @@
   {
     "label": "Brand Appstore",
     "tags": [
+      "appstore",
       "brand",
-      "appstore"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-appstore.svg",
     "source": "external",
@@ -58811,8 +58861,15 @@
   {
     "label": "Brand Bandlab",
     "tags": [
+      "bandlab",
       "brand",
-      "bandlab"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-bandlab.svg",
     "source": "external",
@@ -59034,8 +59091,15 @@
   {
     "label": "Brand Bluesky",
     "tags": [
+      "bluesky",
       "brand",
-      "bluesky"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-bluesky.svg",
     "source": "external",
@@ -59128,8 +59192,15 @@
   {
     "label": "Brand Bunpo",
     "tags": [
+      "bunpo",
       "brand",
-      "bunpo"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-bunpo.svg",
     "source": "external",
@@ -59207,8 +59278,15 @@
   {
     "label": "Brand Campaignmonitor",
     "tags": [
+      "campaignmonitor",
       "brand",
-      "campaignmonitor"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-campaignmonitor.svg",
     "source": "external",
@@ -59219,7 +59297,6 @@
     "tags": [
       "brand",
       "carbon",
-      "c",
       "dioxide",
       "tetrachloride",
       "hydrocarbon",
@@ -59239,8 +59316,15 @@
   {
     "label": "Brand Cashapp",
     "tags": [
+      "cashapp",
       "brand",
-      "cashapp"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-cashapp.svg",
     "source": "external",
@@ -59327,8 +59411,15 @@
   {
     "label": "Brand Codecov",
     "tags": [
+      "codecov",
       "brand",
-      "codecov"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-codecov.svg",
     "source": "external",
@@ -59360,8 +59451,15 @@
   {
     "label": "Brand Codesandbox",
     "tags": [
+      "codesandbox",
       "brand",
-      "codesandbox"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-codesandbox.svg",
     "source": "external",
@@ -59437,8 +59535,15 @@
   {
     "label": "Brand Coreos",
     "tags": [
+      "coreos",
       "brand",
-      "coreos"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-coreos.svg",
     "source": "external",
@@ -59447,8 +59552,15 @@
   {
     "label": "Brand Couchdb",
     "tags": [
+      "couchdb",
       "brand",
-      "couchdb"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-couchdb.svg",
     "source": "external",
@@ -59566,8 +59678,15 @@
   {
     "label": "Brand Ctemplar",
     "tags": [
+      "ctemplar",
       "brand",
-      "ctemplar"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-ctemplar.svg",
     "source": "external",
@@ -59803,8 +59922,15 @@
   {
     "label": "Brand Denodo",
     "tags": [
+      "denodo",
       "brand",
-      "denodo"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-denodo.svg",
     "source": "external",
@@ -60219,8 +60345,15 @@
   {
     "label": "Brand Envato",
     "tags": [
+      "envato",
       "brand",
-      "envato"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-envato.svg",
     "source": "external",
@@ -60450,9 +60583,15 @@
   {
     "label": "Brand Flightradar24",
     "tags": [
-      "brand",
       "flightradar24",
-      "flightradar"
+      "brand",
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-flightradar24.svg",
     "source": "external",
@@ -60735,8 +60874,15 @@
   {
     "label": "Brand Golang",
     "tags": [
+      "golang",
       "brand",
-      "golang"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-golang.svg",
     "source": "external",
@@ -60886,7 +61032,6 @@
       "brand",
       "google",
       "one",
-      "i",
       "combined",
       "united",
       "same",
@@ -61166,8 +61311,15 @@
   {
     "label": "Brand Headlessui",
     "tags": [
+      "headlessui",
       "brand",
-      "headlessui"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-headlessui.svg",
     "source": "external",
@@ -61176,8 +61328,15 @@
   {
     "label": "Brand Hexo",
     "tags": [
+      "hexo",
       "brand",
-      "hexo"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-hexo.svg",
     "source": "external",
@@ -61252,8 +61411,15 @@
   {
     "label": "Brand Infakt",
     "tags": [
+      "infakt",
       "brand",
-      "infakt"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-infakt.svg",
     "source": "external",
@@ -61375,8 +61541,15 @@
   {
     "label": "Brand Juejin",
     "tags": [
+      "juejin",
       "brand",
-      "juejin"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-juejin.svg",
     "source": "external",
@@ -61407,8 +61580,15 @@
   {
     "label": "Brand Kbin",
     "tags": [
+      "kbin",
       "brand",
-      "kbin"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-kbin.svg",
     "source": "external",
@@ -61498,8 +61678,15 @@
   {
     "label": "Brand Lastfm",
     "tags": [
+      "lastfm",
       "brand",
-      "lastfm"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-lastfm.svg",
     "source": "external",
@@ -61508,8 +61695,15 @@
   {
     "label": "Brand Leetcode",
     "tags": [
+      "leetcode",
       "brand",
-      "leetcode"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-leetcode.svg",
     "source": "external",
@@ -61684,8 +61878,15 @@
   {
     "label": "Brand Mantine",
     "tags": [
+      "mantine",
       "brand",
-      "mantine"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-mantine.svg",
     "source": "external",
@@ -61896,8 +62097,15 @@
   {
     "label": "Brand Metabrainz",
     "tags": [
+      "metabrainz",
       "brand",
-      "metabrainz"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-metabrainz.svg",
     "source": "external",
@@ -61927,9 +62135,15 @@
   {
     "label": "Brand Miniprogram",
     "tags": [
-      "brand",
       "miniprogram",
-      "applet"
+      "brand",
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-miniprogram.svg",
     "source": "external",
@@ -62197,8 +62411,15 @@
   {
     "label": "Brand Nextjs",
     "tags": [
+      "nextjs",
       "brand",
-      "nextjs"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-nextjs.svg",
     "source": "external",
@@ -62207,8 +62428,15 @@
   {
     "label": "Brand Nodejs",
     "tags": [
+      "nodejs",
       "brand",
-      "nodejs"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-nodejs.svg",
     "source": "external",
@@ -62222,7 +62450,6 @@
       "vpn",
       "pos",
       "device",
-      "1",
       "npv",
       "ip",
       "vpns",
@@ -62285,8 +62512,15 @@
   {
     "label": "Brand Nuxt",
     "tags": [
+      "nuxt",
       "brand",
-      "nuxt"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-nuxt.svg",
     "source": "external",
@@ -62494,8 +62728,15 @@
   {
     "label": "Brand Pagekit",
     "tags": [
+      "pagekit",
       "brand",
-      "pagekit"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-pagekit.svg",
     "source": "external",
@@ -62504,8 +62745,15 @@
   {
     "label": "Brand Parsinta",
     "tags": [
+      "parsinta",
       "brand",
-      "parsinta"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-parsinta.svg",
     "source": "external",
@@ -62671,8 +62919,15 @@
   {
     "label": "Brand Planetscale",
     "tags": [
+      "planetscale",
       "brand",
-      "planetscale"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-planetscale.svg",
     "source": "external",
@@ -62681,8 +62936,15 @@
   {
     "label": "Brand Pnpm",
     "tags": [
+      "pnpm",
       "brand",
-      "pnpm"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-pnpm.svg",
     "source": "external",
@@ -62801,8 +63063,15 @@
   {
     "label": "Brand Producthunt",
     "tags": [
+      "producthunt",
       "brand",
-      "producthunt"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-producthunt.svg",
     "source": "external",
@@ -62811,8 +63080,15 @@
   {
     "label": "Brand Pushbullet",
     "tags": [
+      "pushbullet",
       "brand",
-      "pushbullet"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-pushbullet.svg",
     "source": "external",
@@ -63132,8 +63408,15 @@
   {
     "label": "Brand Samsungpass",
     "tags": [
+      "samsungpass",
       "brand",
-      "samsungpass"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-samsungpass.svg",
     "source": "external",
@@ -63188,8 +63471,15 @@
   {
     "label": "Brand Sharik",
     "tags": [
+      "sharik",
       "brand",
-      "sharik"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-sharik.svg",
     "source": "external",
@@ -63385,8 +63675,15 @@
   {
     "label": "Brand Solidjs",
     "tags": [
+      "solidjs",
       "brand",
-      "solidjs"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-solidjs.svg",
     "source": "external",
@@ -63439,8 +63736,15 @@
   {
     "label": "Brand Speedtest",
     "tags": [
+      "speedtest",
       "brand",
-      "speedtest"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-speedtest.svg",
     "source": "external",
@@ -63472,8 +63776,15 @@
   {
     "label": "Brand Stackoverflow",
     "tags": [
+      "stackoverflow",
       "brand",
-      "stackoverflow"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-stackoverflow.svg",
     "source": "external",
@@ -63482,8 +63793,15 @@
   {
     "label": "Brand Stackshare",
     "tags": [
+      "stackshare",
       "brand",
-      "stackshare"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-stackshare.svg",
     "source": "external",
@@ -63561,8 +63879,15 @@
   {
     "label": "Brand Storj",
     "tags": [
+      "storj",
       "brand",
-      "storj"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-storj.svg",
     "source": "external",
@@ -63679,8 +64004,15 @@
   {
     "label": "Brand Sugarizer",
     "tags": [
+      "sugarizer",
       "brand",
-      "sugarizer"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-sugarizer.svg",
     "source": "external",
@@ -63689,8 +64021,15 @@
   {
     "label": "Brand Supabase",
     "tags": [
+      "supabase",
       "brand",
-      "supabase"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-supabase.svg",
     "source": "external",
@@ -63844,8 +64183,15 @@
   {
     "label": "Brand Tabnine",
     "tags": [
+      "tabnine",
       "brand",
-      "tabnine"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-tabnine.svg",
     "source": "external",
@@ -63865,7 +64211,6 @@
       "trackout",
       "stemming",
       "backwash",
-      "vector",
       "wake",
       "wingloading"
     ],
@@ -64079,8 +64424,15 @@
   {
     "label": "Brand Threejs",
     "tags": [
+      "threejs",
       "brand",
-      "threejs"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-threejs.svg",
     "source": "external",
@@ -64156,8 +64508,15 @@
   {
     "label": "Brand Topbuzz",
     "tags": [
+      "topbuzz",
       "brand",
-      "topbuzz"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-topbuzz.svg",
     "source": "external",
@@ -64166,8 +64525,15 @@
   {
     "label": "Brand Torchain",
     "tags": [
+      "torchain",
       "brand",
-      "torchain"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-torchain.svg",
     "source": "external",
@@ -64407,9 +64773,7 @@
       "wholeness",
       "single",
       "one",
-      "i",
       "ace",
-      "1",
       "unitary",
       "unified",
       "unification",
@@ -64423,8 +64787,15 @@
   {
     "label": "Brand Unsplash",
     "tags": [
+      "unsplash",
       "brand",
-      "unsplash"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-unsplash.svg",
     "source": "external",
@@ -64433,8 +64804,15 @@
   {
     "label": "Brand Upwork",
     "tags": [
+      "upwork",
       "brand",
-      "upwork"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-upwork.svg",
     "source": "external",
@@ -64443,8 +64821,15 @@
   {
     "label": "Brand Valorant",
     "tags": [
+      "valorant",
       "brand",
-      "valorant"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-valorant.svg",
     "source": "external",
@@ -64453,8 +64838,15 @@
   {
     "label": "Brand Vechain",
     "tags": [
+      "vechain",
       "brand",
-      "vechain"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-vechain.svg",
     "source": "external",
@@ -64463,8 +64855,15 @@
   {
     "label": "Brand Vercel",
     "tags": [
+      "vercel",
       "brand",
-      "vercel"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-vercel.svg",
     "source": "external",
@@ -64672,8 +65071,15 @@
   {
     "label": "Brand Vsco",
     "tags": [
+      "vsco",
       "brand",
-      "vsco"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-vsco.svg",
     "source": "external",
@@ -64682,8 +65088,15 @@
   {
     "label": "Brand Vscode",
     "tags": [
+      "vscode",
       "brand",
-      "vscode"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-vscode.svg",
     "source": "external",
@@ -64738,8 +65151,15 @@
   {
     "label": "Brand Waze",
     "tags": [
+      "waze",
       "brand",
-      "waze"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-waze.svg",
     "source": "external",
@@ -64748,8 +65168,15 @@
   {
     "label": "Brand Webflow",
     "tags": [
+      "webflow",
       "brand",
-      "webflow"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-webflow.svg",
     "source": "external",
@@ -64779,8 +65206,15 @@
   {
     "label": "Brand Weibo",
     "tags": [
+      "weibo",
       "brand",
-      "weibo"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-weibo.svg",
     "source": "external",
@@ -64972,8 +65406,15 @@
   {
     "label": "Brand Xamarin",
     "tags": [
+      "xamarin",
       "brand",
-      "xamarin"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-xamarin.svg",
     "source": "external",
@@ -65000,8 +65441,15 @@
   {
     "label": "Brand Xdeep",
     "tags": [
+      "xdeep",
       "brand",
-      "xdeep"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-xdeep.svg",
     "source": "external",
@@ -65102,8 +65550,15 @@
   {
     "label": "Brand Yatse",
     "tags": [
+      "yatse",
       "brand",
-      "yatse"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-yatse.svg",
     "source": "external",
@@ -65112,8 +65567,15 @@
   {
     "label": "Brand Ycombinator",
     "tags": [
+      "ycombinator",
       "brand",
-      "ycombinator"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-ycombinator.svg",
     "source": "external",
@@ -65168,8 +65630,15 @@
   {
     "label": "Brand Zalando",
     "tags": [
+      "zalando",
       "brand",
-      "zalando"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-zalando.svg",
     "source": "external",
@@ -65178,8 +65647,15 @@
   {
     "label": "Brand Zapier",
     "tags": [
+      "zapier",
       "brand",
-      "zapier"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-zapier.svg",
     "source": "external",
@@ -65211,8 +65687,15 @@
   {
     "label": "Brand Zhihu",
     "tags": [
+      "zhihu",
       "brand",
-      "zhihu"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-zhihu.svg",
     "source": "external",
@@ -65240,8 +65723,15 @@
   {
     "label": "Brand Zulip",
     "tags": [
+      "zulip",
       "brand",
-      "zulip"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-zulip.svg",
     "source": "external",
@@ -65250,8 +65740,15 @@
   {
     "label": "Brand Zwift",
     "tags": [
+      "zwift",
       "brand",
-      "zwift"
+      "logo",
+      "company",
+      "software",
+      "technology",
+      "service",
+      "app",
+      "business"
     ],
     "file": "tabler-brand-zwift.svg",
     "source": "external",
@@ -67028,7 +67525,14 @@
   {
     "label": "Businessplan",
     "tags": [
-      "businessplan"
+      "business",
+      "plan",
+      "strategy",
+      "document",
+      "proposal",
+      "paper",
+      "growth",
+      "roadmap"
     ],
     "file": "tabler-businessplan.svg",
     "source": "external",
@@ -78184,7 +78688,6 @@
       "snowfall",
       "coke",
       "cocaine",
-      "c",
       "hoodwink",
       "bamboozle",
       "cocain",
@@ -78681,7 +79184,14 @@
   {
     "label": "Codeblock",
     "tags": [
-      "codeblock"
+      "code",
+      "block",
+      "programming",
+      "development",
+      "snippet",
+      "script",
+      "software",
+      "coding"
     ],
     "file": "tabler-codeblock.svg",
     "source": "external",
@@ -82164,8 +82674,15 @@
   {
     "label": "Currency Husd",
     "tags": [
+      "husd",
       "currency",
-      "husd"
+      "money",
+      "finance",
+      "coin",
+      "exchange",
+      "wealth",
+      "payment",
+      "economy"
     ],
     "file": "tabler-currency-husd.svg",
     "source": "external",
@@ -82377,9 +82894,15 @@
   {
     "label": "Currency Lyd",
     "tags": [
-      "currency",
       "lyd",
-      "said"
+      "currency",
+      "money",
+      "finance",
+      "coin",
+      "exchange",
+      "wealth",
+      "payment",
+      "economy"
     ],
     "file": "tabler-currency-lyd.svg",
     "source": "external",
@@ -82495,8 +83018,15 @@
   {
     "label": "Currency Paanga",
     "tags": [
+      "paanga",
       "currency",
-      "paanga"
+      "money",
+      "finance",
+      "coin",
+      "exchange",
+      "wealth",
+      "payment",
+      "economy"
     ],
     "file": "tabler-currency-paanga.svg",
     "source": "external",
@@ -82944,8 +83474,15 @@
   {
     "label": "Currency Xrp",
     "tags": [
+      "xrp",
       "currency",
-      "xrp"
+      "money",
+      "finance",
+      "coin",
+      "exchange",
+      "wealth",
+      "payment",
+      "economy"
     ],
     "file": "tabler-currency-xrp.svg",
     "source": "external",
@@ -83023,8 +83560,15 @@
   {
     "label": "Currency Zcash",
     "tags": [
+      "zcash",
       "currency",
-      "zcash"
+      "money",
+      "finance",
+      "coin",
+      "exchange",
+      "wealth",
+      "payment",
+      "economy"
     ],
     "file": "tabler-currency-zcash.svg",
     "source": "external",
@@ -88934,7 +89478,14 @@
   {
     "label": "Dialpad",
     "tags": [
-      "dialpad"
+      "dialpad",
+      "phone",
+      "call",
+      "numbers",
+      "keypad",
+      "communication",
+      "telephone",
+      "dial"
     ],
     "file": "tabler-dialpad.svg",
     "source": "external",
@@ -93704,8 +94255,7 @@
       "comparable",
       "same",
       "care",
-      "equivalent",
-      "y"
+      "equivalent"
     ],
     "file": "tabler-file-like.svg",
     "source": "external",
@@ -94452,7 +95002,12 @@
     "tags": [
       "file",
       "type",
-      "docx"
+      "docx",
+      "document",
+      "extension",
+      "format",
+      "data",
+      "software"
     ],
     "file": "tabler-file-type-docx.svg",
     "source": "external",
@@ -94532,7 +95087,12 @@
     "tags": [
       "file",
       "type",
-      "jsx"
+      "jsx",
+      "document",
+      "extension",
+      "format",
+      "data",
+      "software"
     ],
     "file": "tabler-file-type-jsx.svg",
     "source": "external",
@@ -94930,7 +95490,6 @@
     "label": "File Vector",
     "tags": [
       "file",
-      "vector",
       "medium",
       "construct",
       "aspect",
@@ -98147,7 +98706,14 @@
   {
     "label": "Foodsteps",
     "tags": [
-      "foodsteps"
+      "food",
+      "steps",
+      "footsteps",
+      "walk",
+      "path",
+      "nutrition",
+      "diet",
+      "journey"
     ],
     "file": "tabler-foodsteps.svg",
     "source": "external",
@@ -99201,7 +99767,12 @@
     "label": "Gender Trasvesti",
     "tags": [
       "gender",
-      "trasvesti"
+      "identity",
+      "trans",
+      "inclusive",
+      "diversity",
+      "symbol",
+      "equality"
     ],
     "file": "tabler-gender-trasvesti.svg",
     "source": "external",
@@ -100182,7 +100753,13 @@
     "label": "Grid Goldenratio",
     "tags": [
       "grid",
-      "goldenratio"
+      "golden",
+      "ratio",
+      "design",
+      "layout",
+      "proportion",
+      "geometry",
+      "math"
     ],
     "file": "tabler-grid-goldenratio.svg",
     "source": "external",
@@ -104483,7 +105060,6 @@
       "buck",
       "junk",
       "knight",
-      "h",
       "pony"
     ],
     "file": "tabler-horse.svg",
@@ -105504,7 +106080,14 @@
   {
     "label": "Ikosaedr",
     "tags": [
-      "ikosaedr"
+      "icosahedron",
+      "geometry",
+      "shape",
+      "3d",
+      "polygon",
+      "math",
+      "polyhedron",
+      "dice"
     ],
     "file": "tabler-ikosaedr.svg",
     "source": "external",
@@ -107980,7 +108563,14 @@
     "label": "Layout Bottombar",
     "tags": [
       "layout",
-      "bottombar"
+      "bottom",
+      "bar",
+      "ui",
+      "interface",
+      "design",
+      "wireframe",
+      "footer",
+      "navigation"
     ],
     "file": "tabler-layout-bottombar.svg",
     "source": "external",
@@ -113328,7 +113918,6 @@
       "map",
       "east",
       "easterly",
-      "e",
       "eastside",
       "eastbound",
       "eastmost",
@@ -113448,7 +114037,6 @@
       "northwesterly",
       "septentrion",
       "northwestern",
-      "n",
       "northward"
     ],
     "file": "tabler-map-north.svg",
@@ -114163,7 +114751,6 @@
     "tags": [
       "map",
       "south",
-      "s",
       "southerly",
       "southmost",
       "southernmost",
@@ -114233,7 +114820,6 @@
       "map",
       "west",
       "occident",
-      "w",
       "westside",
       "westward",
       "westbound",
@@ -115069,7 +115655,6 @@
       "second",
       "dry",
       "unsweet",
-      "s",
       "moment",
       "jiff",
       "jiffy",
@@ -117759,7 +118344,14 @@
   {
     "label": "Microfrontends",
     "tags": [
-      "microfrontends"
+      "micro",
+      "frontend",
+      "architecture",
+      "web",
+      "development",
+      "modular",
+      "ui",
+      "component"
     ],
     "file": "tabler-microfrontends.svg",
     "source": "external",
@@ -118211,7 +118803,14 @@
   {
     "label": "Mobiledata",
     "tags": [
-      "mobiledata"
+      "mobile",
+      "data",
+      "cellular",
+      "network",
+      "internet",
+      "connection",
+      "signal",
+      "communication"
     ],
     "file": "tabler-mobiledata.svg",
     "source": "external",
@@ -118379,7 +118978,14 @@
   {
     "label": "Monkeybar",
     "tags": [
-      "monkeybar"
+      "monkey",
+      "bar",
+      "playground",
+      "play",
+      "park",
+      "climb",
+      "kids",
+      "activity"
     ],
     "file": "tabler-monkeybar.svg",
     "source": "external",
@@ -118544,7 +119150,13 @@
     "label": "Mood Confuzed",
     "tags": [
       "mood",
-      "confuzed"
+      "confused",
+      "emotion",
+      "face",
+      "feeling",
+      "puzzled",
+      "lost",
+      "uncertain"
     ],
     "file": "tabler-mood-confuzed.svg",
     "source": "external",
@@ -119477,7 +120089,13 @@
     "label": "Mood Wrrr",
     "tags": [
       "mood",
-      "wrrr"
+      "angry",
+      "mad",
+      "emotion",
+      "face",
+      "feeling",
+      "frustrated",
+      "furious"
     ],
     "file": "tabler-mood-wrrr.svg",
     "source": "external",
@@ -120719,7 +121337,6 @@
       "navigation",
       "east",
       "easterly",
-      "e",
       "eastside",
       "eastbound",
       "eastmost",
@@ -120821,7 +121438,6 @@
       "northwesterly",
       "septentrion",
       "northwestern",
-      "n",
       "northward"
     ],
     "file": "tabler-navigation-north.svg",
@@ -120992,7 +121608,6 @@
     "tags": [
       "navigation",
       "south",
-      "s",
       "southerly",
       "southmost",
       "southernmost",
@@ -121084,7 +121699,6 @@
       "navigation",
       "west",
       "occident",
-      "w",
       "westside",
       "westward",
       "westbound",
@@ -121467,7 +122081,14 @@
   {
     "label": "Notdef",
     "tags": [
-      "notdef"
+      "notdef",
+      "undefined",
+      "missing",
+      "error",
+      "unknown",
+      "character",
+      "font",
+      "glitch"
     ],
     "file": "tabler-notdef.svg",
     "source": "external",
@@ -124665,7 +125286,6 @@
     "label": "Omega",
     "tags": [
       "omega",
-      "z",
       "lambda",
       "3s",
       "word",
@@ -125330,7 +125950,6 @@
     "tags": [
       "parking",
       "meter",
-      "m",
       "metre",
       "time",
       "beat",
@@ -128164,7 +128783,14 @@
   {
     "label": "Physotherapist",
     "tags": [
-      "physotherapist"
+      "physiotherapist",
+      "therapy",
+      "medical",
+      "health",
+      "rehabilitation",
+      "treatment",
+      "care",
+      "doctor"
     ],
     "file": "tabler-physotherapist.svg",
     "source": "external",
@@ -130724,7 +131350,14 @@
   {
     "label": "Pokeball",
     "tags": [
-      "pokeball"
+      "pokeball",
+      "pokemon",
+      "game",
+      "anime",
+      "catch",
+      "play",
+      "nintendo",
+      "toy"
     ],
     "file": "tabler-pokeball.svg",
     "source": "external",
@@ -131638,7 +132271,14 @@
   {
     "label": "Qrcode",
     "tags": [
-      "qrcode"
+      "qrcode",
+      "qr",
+      "code",
+      "scan",
+      "barcode",
+      "link",
+      "digital",
+      "information"
     ],
     "file": "tabler-qrcode.svg",
     "source": "external",
@@ -132996,7 +133636,6 @@
     "tags": [
       "relation",
       "one",
-      "i",
       "combined",
       "united",
       "same",
@@ -137716,7 +138355,14 @@
   {
     "label": "Shareplay",
     "tags": [
-      "shareplay"
+      "shareplay",
+      "share",
+      "play",
+      "apple",
+      "stream",
+      "watch",
+      "media",
+      "together"
     ],
     "file": "tabler-shareplay.svg",
     "source": "external",
@@ -139549,7 +140195,6 @@
       "assumed",
       "existence",
       "case",
-      "a",
       "absorber",
       "abutments"
     ],
@@ -146726,7 +147371,16 @@
   {
     "label": "Tallymark 1",
     "tags": [
-      "tallymark"
+      "tallymark",
+      "number",
+      "1",
+      "count",
+      "score",
+      "record",
+      "tally",
+      "counting",
+      "mark",
+      "math"
     ],
     "file": "tabler-tallymark-1.svg",
     "source": "external",
@@ -146735,7 +147389,16 @@
   {
     "label": "Tallymark 2",
     "tags": [
-      "tallymark"
+      "tallymark",
+      "number",
+      "2",
+      "count",
+      "score",
+      "record",
+      "tally",
+      "counting",
+      "mark",
+      "math"
     ],
     "file": "tabler-tallymark-2.svg",
     "source": "external",
@@ -146744,7 +147407,16 @@
   {
     "label": "Tallymark 3",
     "tags": [
-      "tallymark"
+      "tallymark",
+      "number",
+      "3",
+      "count",
+      "score",
+      "record",
+      "tally",
+      "counting",
+      "mark",
+      "math"
     ],
     "file": "tabler-tallymark-3.svg",
     "source": "external",
@@ -146753,7 +147425,16 @@
   {
     "label": "Tallymark 4",
     "tags": [
-      "tallymark"
+      "tallymark",
+      "number",
+      "4",
+      "count",
+      "score",
+      "record",
+      "tally",
+      "counting",
+      "mark",
+      "math"
     ],
     "file": "tabler-tallymark-4.svg",
     "source": "external",
@@ -146762,7 +147443,15 @@
   {
     "label": "Tallymarks",
     "tags": [
-      "tallymarks"
+      "tallymarks",
+      "number",
+      "count",
+      "score",
+      "record",
+      "tally",
+      "counting",
+      "mark",
+      "math"
     ],
     "file": "tabler-tallymarks.svg",
     "source": "external",
@@ -147015,7 +147704,6 @@
       "temperature",
       "celsius",
       "centigrade",
-      "c",
       "fahrenheit",
       "percentage",
       "apr",
@@ -147037,7 +147725,6 @@
     "tags": [
       "temperature",
       "fahrenheit",
-      "f",
       "fahr",
       "celsius",
       "fahr.",
@@ -147132,7 +147819,6 @@
       "snowfall",
       "coke",
       "cocaine",
-      "c",
       "hoodwink",
       "bamboozle",
       "cocain",
@@ -150921,8 +151607,14 @@
     "label": "Uhd",
     "tags": [
       "uhd",
-      "battle",
-      "headlines"
+      "ultra",
+      "high",
+      "definition",
+      "4k",
+      "resolution",
+      "video",
+      "screen",
+      "display"
     ],
     "file": "tabler-uhd.svg",
     "source": "external",
@@ -152260,7 +152952,6 @@
   {
     "label": "Vector Bezier 2",
     "tags": [
-      "vector",
       "bezier",
       "bend",
       "bight",
@@ -152281,7 +152972,6 @@
   {
     "label": "Vector Bezier Arc",
     "tags": [
-      "vector",
       "bezier",
       "arc",
       "arch",
@@ -152304,7 +152994,6 @@
   {
     "label": "Vector Bezier Circle",
     "tags": [
-      "vector",
       "bezier",
       "circle",
       "round",
@@ -152327,7 +153016,6 @@
   {
     "label": "Vector Bezier",
     "tags": [
-      "vector",
       "bezier",
       "bend",
       "bight",
@@ -152348,7 +153036,6 @@
   {
     "label": "Vector Off",
     "tags": [
-      "vector",
       "off",
       "away",
       "cancelled",
@@ -152371,7 +153058,6 @@
   {
     "label": "Vector Spline",
     "tags": [
-      "vector",
       "spline",
       "slat",
       "splined",
@@ -152394,7 +153080,6 @@
   {
     "label": "Vector Triangle Off",
     "tags": [
-      "vector",
       "triangle",
       "off",
       "away",
@@ -152417,7 +153102,6 @@
   {
     "label": "Vector Triangle",
     "tags": [
-      "vector",
       "triangle",
       "trigon",
       "trilateral",
@@ -152440,7 +153124,6 @@
   {
     "label": "Vector",
     "tags": [
-      "vector",
       "medium",
       "construct",
       "aspect",
